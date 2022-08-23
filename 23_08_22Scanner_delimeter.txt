@@ -1,0 +1,15 @@
+import java.time.LocalDate;
+import java.util.Date;
+import java.util.Scanner;
+
+public class ScannerEg {
+
+	public static void main(String[] args) {
+
+Scanner scan=new Scanner("hi - thisIs -  Debadatta Pati");
+		scan.useDelimiter(" - ");
+		//by default it is splitted into tokens using " "(delimiter)
+		while(scan.hasNext()) {
+			System.out.println(scan.next());
+		}
+}

@@ -1,0 +1,9 @@
+import java.util.*;  
+public class B {    
+    public static void main(String args[]){       
+        Scanner scan = new Scanner("Hello World!");  
+        while (scan.hasNext()) {  
+            System.out.println(scan.next());  
+        }  
+        }    
+}  
