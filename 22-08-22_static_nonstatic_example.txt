@@ -1,0 +1,21 @@
+package myproject;
+
+public class Bekar3 {
+	int empId=123;
+	static int TeamId=2022;
+
+	public static void main(String[] args) {
+		Bekar3 clayfinTrainee=new Bekar3();
+		clayfinTrainee.empId=456;
+		clayfinTrainee.TeamId=2023;
+		Bekar3 clayfinHdfc=new Bekar3();
+		System.out.println(clayfinHdfc.empId);
+		System.out.println(clayfinHdfc.TeamId);
+		
+		
+		
+		
+
+	}
+
+}
