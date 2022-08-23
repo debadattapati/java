@@ -1,0 +1,12 @@
+import java.time.LocalDate;  
+public class Bekar3  
+{  
+    public static void main(String ar[])   
+    {  
+          
+        LocalDate d1 = LocalDate.parse("2011-09-01");  
+        System.out.println("String to LocalDate convert " + d1);  
+        LocalDate d2 = LocalDate.parse("2015-11-20");  
+        System.out.println("String to LocalDate convert " + d2);  
+    }  
+}  

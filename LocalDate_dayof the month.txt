@@ -1,0 +1,8 @@
+import java.time.*;
+public class M {
+   public static void main(String[] args) {
+      LocalDate d1 = LocalDate.parse("2019-02-14");
+      System.out.println(d1);
+      System.out.println(d1.getDayOfMonth());
+   }
+}

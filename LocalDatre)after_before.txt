@@ -1,0 +1,15 @@
+
+import java.util.*;
+import java.time.*;
+
+public class Lucky {
+	public static void main(String[] args)
+	{
+		LocalDate dt1 = LocalDate.parse("2022-10-05");
+		LocalDate dt2 = LocalDate.parse("2019-08-17");
+
+		System.out.println(dt1.isAfter(dt2));
+            System.out.println(dt1.isBefore(dt2));
+	}
+	}
+}

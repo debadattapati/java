@@ -1,0 +1,8 @@
+import java.time.*;
+public class D {
+   public static void main(String[] args) {
+      LocalDate d = LocalDate.parse("2019-02-14");
+      System.out.println(d);
+      System.out.println (d.getYear());
+   }
+}
