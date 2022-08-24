@@ -8,7 +8,7 @@ public class ScannerEg {
 
 Scanner scan=new Scanner("hi - thisIs -  Debadatta Pati");
 		scan.useDelimiter(" - ");
-		//by default it is splitted into tokens using " "(delimiter)
+		
 		while(scan.hasNext()) {
 			System.out.println(scan.next());
 		}
