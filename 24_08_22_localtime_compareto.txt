@@ -1,0 +1,25 @@
+
+import java.time.LocalTime;
+public class UsingCompare
+{
+	public static void main(String[] args) {
+		LocalTime t = LocalTime.now();
+		LocalTime t1=LocalTime.parse("12:30:59");
+		LocalTime t3=LocalTime.parse("10:16:35");
+		LocalTime t2=LocalTime.now();
+		System.out.println(t);
+		System.out.println(t2);//different time because of milli second 1000millisecond=1sec
+		int c=t1.compareTo(t3);
+		System.out.println(c);
+		if(c>0)
+		{
+			System.out.println("first time is grater"+t);	
+		}
+		else if(c<0)
+		{
+			System.out.println("current time is greater"+t1);	
+		}
+		else
+			System.out.println("both  time area equal");
+	}
+}

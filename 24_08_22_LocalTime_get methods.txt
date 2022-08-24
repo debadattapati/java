@@ -1,0 +1,23 @@
+package day1;
+
+import java.time.LocalTime;
+import java.time.temporal.ChronoUnit;
+
+public class Localtime
+{
+	public static void main(String[] args) 
+	{
+		LocalTime ti=LocalTime.now();
+		System.out.println(ti);
+		System.out.println(ti.getHour());
+		System.out.println(ti.getMinute());
+		System.out.println(ti.getSecond());
+		System.out.println(ti.getNano());
+	    LocalTime t1=LocalTime.parse("10:45:52");
+		System.out.println(t1);
+        System.out.println(t1.truncatedTo(ChronoUnit.MINUTES));
+		System.out.println(t1.truncatedTo(ChronoUnit.HOURS));
+		System.out.println(t1.truncatedTo(ChronoUnit.SECONDS));
+	}
+
+}
