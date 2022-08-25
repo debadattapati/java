@@ -1,0 +1,31 @@
+package myproject;
+
+import java.util.Scanner;
+
+class A 
+{
+	public static void main(String[] args) 
+	{
+		String paragraph="Now is the time to make real the promises of democracy. Now is the time to rise from the dark and desolate valley of segregation to the sunlit path of racial justice. Now is the time to lift our nation from the quicksands of racial injustice to the solid rock of brotherhood. ";
+		
+		Scanner scan= new Scanner(System.in);
+		System.out.println("Enter the word ");
+		String word=scan.next();
+
+		String arrSplit[]=paragraph.split(" ");
+		int count=0;
+		
+			for(int i=0;i<arrSplit.length;i++)
+			{
+				if(word.equals(arrSplit[i]))
+				{
+					count++;
+				}
+			}
+			if(count==0)
+			{
+				System.err.println("the word you entered is not present!!!");
+			}
+			else {
+				System.out.println("The word you enter is"+count+"times!!!");
+			}}}
