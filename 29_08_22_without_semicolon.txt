@@ -1,0 +1,17 @@
+public class B {
+
+	public static void main(String[] args) {
+		
+		if(System.out.append("Hello world!").equals(null)) {
+			
+		}
+
+	}
+           if(System.out.printf("Hello world!")==null) {
+			
+		}
+
+	}
+
+
+}
