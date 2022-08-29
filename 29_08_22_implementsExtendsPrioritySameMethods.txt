@@ -1,0 +1,38 @@
+package myproject;
+
+public class Emp {
+
+	public static void main(String[] args) {
+		Three abd=new Three();
+		abd.methodOne();
+//		abd.methodTwo();	
+	}
+}
+//Defining the interface
+interface One {
+
+	// Abstract method
+	void methodOne();
+}
+
+//Defining a class
+class Two {
+
+	// Defining a method
+	public void methodOne()
+	{
+		System.out.println("hiii");
+	}
+}
+
+//Class which extends the class Two
+//and implements the interface One
+class Three extends Two implements One {
+
+	public void methodOne()
+	{
+		System.out.println("hello");
+		// Implementation of the method
+	}
+}
+
