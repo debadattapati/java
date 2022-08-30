@@ -1,0 +1,35 @@
+class Electronics{
+    
+public void Audio(){
+    System.out.println("all device have some sound");
+    
+}  
+}  
+class Tv extends Electronics{  
+public void Audio(){
+    System.out.println("inbuilt sound but through wired network");
+    
+}  
+}  
+class Dvd extends Electronics{  
+public void Audio(){
+    System.out.println("it uses external device to give the audio");
+    
+}  
+}  
+class Radio extends Electronics{  
+public void Audio(){
+    System.out.println("inbuilt sound but through wireless network");
+    
+}  
+}  
+class Test{  
+public static void main(String[] args){  
+Animal a;  
+a=new Tv();  
+a.Audio();  
+a=new Dvd();  
+a.Audio();  
+a=new Radio();  
+a.Audio();  
+}}
