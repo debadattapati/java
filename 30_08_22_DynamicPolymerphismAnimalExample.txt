@@ -1,0 +1,35 @@
+class Animal{
+    
+public void eat(){
+    System.out.println("eating");
+    
+}  
+}  
+class Dog extends Animal{  
+public void eat(){
+    System.out.println("eating biscuit");
+    
+}  
+}  
+class Cat extends Animal{  
+public void eat(){
+    System.out.println("eating rat");
+    
+}  
+}  
+class Elephant extends Animal{  
+public void eat(){
+    System.out.println("eating sugarcane");
+    
+}  
+}  
+class TestPolymorphism3{  
+public static void main(String[] args){  
+Animal a;  
+a=new Dog();  
+a.eat();  
+a=new Cat();  
+a.eat();  
+a=new Elephant();  
+a.eat();  
+}}
