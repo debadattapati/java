@@ -1,0 +1,37 @@
+import java.util.*;
+
+import java.util.stream.*;
+
+class MergeTwoList{
+
+   public static void main(String[] args){
+
+        	List arr=new ArrayList();
+
+        		arr.add("hii");
+
+        		arr.add("this");
+
+        		arr.add("is");
+
+       		 arr.add("lucky");
+
+	List arr2=new ArrayList();
+
+	  	arr.add("company");
+
+		 arr.add("name");
+
+	     	arr.add("is");
+
+	    	arr.add("clayfin");
+
+	 List arr3=new ArrayList();
+
+	   	arr.addAll(arr2);
+
+		 arr3.addAll(arr);
+
+		 System.out.println(arr3);
+
+  	}
