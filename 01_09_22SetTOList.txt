@@ -1,0 +1,22 @@
+
+import java.util.*;
+
+class Test {
+	public static void main(String[] args)
+	{
+		Set<String> s = new HashSet<String>();
+		s.add("Debadatta");
+		s.add("Pati");
+
+		int n = s.size();
+		List<String> aList = new ArrayList<String>(n);
+		for (String x : s)
+			aList.add(x);
+
+		
+		for (String x : aList)
+			System.out.println(x);
+
+		
+	}
+}
